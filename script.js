@@ -17,3 +17,13 @@ function weight(){
     var p = kg * 2.2
     document.getElementById("pounds").value = p
 }
+
+// Formule mathématique de conversion : Distance(Miles) = Distance(Kms) * 0.62137
+// Définissez la propriété innerHTML de l’élément « miles » dans index.html sur la valeur renvoyée
+function distance(){
+    //To convert KMs to Miles
+    // KM * 0.62137
+    var km = document.getElementById("km").value;
+    var m = km * 0.62137
+    document.getElementById("miles").value = m
+}
